@@ -1,0 +1,88 @@
+@use "sass:meta";
+
+// fontsource fonts
+@use "@fontsource-variable/work-sans";
+@use "@fontsource-variable/raleway";
+@use "@fontsource-variable/playfair-display";
+@use "@fontsource/cinzel-decorative";
+
+// tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer */
+@layer base {
+  html {
+    @apply text-base leading-[1.6rem];
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    @apply h-1 w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-inherit;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-base-400 bg-opacity-90;
+  }
+
+  /* default focus styling when tabbing through items on a page */
+  * :focus-visible {
+    @apply rounded-none outline-none ring-2 ring-primary-300 transition-none;
+  }
+}
+
+/*  things in the components layer can be overriden with utility classes. 
+    Useful for custom styles on third-party components, and things like 
+    btn, card, badge, etc  */
+@layer components {
+  @include meta.load-css("buttons");
+  @include meta.load-css("prose");
+
+  .h1 {
+    @apply font-heading-1 text-4xl font-semibold lg:text-5xl;
+  }
+
+  .h2 {
+    @apply font-heading-1 text-2xl uppercase leading-tight tracking-wide md:text-[2.5rem] md:leading-tight;
+  }
+
+  .h3 {
+    @apply font-heading-2 text-lg font-medium uppercase leading-tight tracking-widest md:text-2xl md:leading-tight;
+  }
+
+  .description {
+    @apply text-base-700;
+  }
+
+  .site-container {
+    // @apply mx-auto max-w-[81rem] px-4;
+    @apply mx-auto max-w-[74rem] px-4;
+  }
+
+  /* used for various form inputs */
+  .form__label {
+    @apply text-base-800 dark:text-base-200;
+  }
+
+  .form__input {
+    @apply w-full rounded-none border border-primary-300 bg-transparent px-4 py-2 text-base-900 placeholder-base-500 outline-none transition duration-200;
+    @apply focus:border-primary-400 focus:outline-none focus:ring-0 focus-visible:border-primary-400 focus-visible:outline-none;
+  }
+
+  /* styles navbar links */
+  .nav__link--base {
+    @apply font-heading-1 px-4 py-2 uppercase tracking-wide transition duration-200 hover:opacity-80;
+  }
+}
+
+@layer utilities {
+  /* main gradient. Used for categories and some headings */
+  .main-text-gradient {
+    @apply bg-gradient-to-r from-indigo-600 to-sky-600 bg-clip-text text-transparent;
+  }
+}
