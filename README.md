@@ -56,7 +56,7 @@ The source files have the following setup. Note that not all files are listed he
 │   │   ├── 404.astro
 │   │   └── index.astro
 │   ├── styles/
-│   │   └── global.scss
+│   │   └── global.css
 │   └── content.config.ts
 ├── .gitignore
 ├── .prettierrc.mjs
@@ -65,7 +65,6 @@ The source files have the following setup. Note that not all files are listed he
 ├── package.json
 ├── package-lock.json
 ├── README.md
-├── tailwind.config.cjs
 └── tsconfig.json
 ```
 
