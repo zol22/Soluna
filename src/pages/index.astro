@@ -18,16 +18,12 @@ import Button from "@components/Button/Button.astro";
 import siteData from "@config/siteData.json";
 ---
 
-<BaseLayout
-  title={siteData.title}
-  description={siteData.description}
-  navStartStyle="white"
->
-  <Hero />
-  <FeatureNumbers />
-  <PortfolioThreeCards />
-  <Testimonials />
-  <PricingThreeCards />
-  <About />
-  <Contact />
+<BaseLayout title={siteData.title} description={siteData.description} navStartStyle="white">
+	<Hero />
+	<FeatureNumbers />
+	<PortfolioThreeCards />
+	<Testimonials />
+	<PricingThreeCards />
+	<About />
+	<Contact />
 </BaseLayout>

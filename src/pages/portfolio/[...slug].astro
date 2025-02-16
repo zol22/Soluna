@@ -6,15 +6,15 @@ import { type InferGetStaticPropsType } from "astro";
 import PortfolioLayout from "@layouts/PortfolioLayout.astro";
 
 export async function getStaticPaths() {
-  const portfolios = await getCollection("portfolios", ({ data }) => {
-    // filter out draft pages
-    return data.draft !== true;
-  });
+	const portfolios = await getCollection("portfolios", ({ data }) => {
+		// filter out draft pages
+		return data.draft !== true;
+	});
 
-  return portfolios.map((portfolio) => ({
-    params: { slug: portfolio.id },
-    props: portfolio,
-  }));
+	return portfolios.map((portfolio) => ({
+		params: { slug: portfolio.id },
+		props: portfolio,
+	}));
 }
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
@@ -23,5 +23,5 @@ const { Content } = await render(portfolio);
 ---
 
 <PortfolioLayout portfolio={portfolio}>
-  <Content />
+	<Content />
 </PortfolioLayout>
