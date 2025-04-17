@@ -1,6 +1,6 @@
 ---
-title: HANNAH & MARCO
-testimonial: Hiring Jenna was one of the best decisions we made for our wedding. Not only was their work incredibly professional and artistic, but they also made us feel so comfortable and at ease throughout the entire process.
-image: ./couple-2-crop.jpg
+title: Rosi
+testimonial: I had no idea where to start with a website, but Solange made it so easy. She brought my vision to life — warm, colorful, and authentically Peruvian. Clients love the simplicity and how easy it is to find our menus and contact info. The site has helped grow my business in ways I didn’t expect!
+image: ./CateringBusiness.png
 order: 1
 ---

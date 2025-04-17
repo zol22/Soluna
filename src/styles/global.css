@@ -85,3 +85,18 @@
 		@apply rotate-180;
 	}
 }
+
+/* You can include this in your global CSS if needed */
+.scroll-animation .col {
+	@apply translate-y-4 opacity-0 transition-all duration-1000;
+  }
+  
+  .scroll-animation .col.scroll-animated {
+	@apply translate-y-0 opacity-100;
+  }
+
+.scroll-animation .col:nth-child(1) { @apply delay-100; }
+.scroll-animation .col:nth-child(2) { @apply delay-200; }
+.scroll-animation .col:nth-child(3) { @apply delay-300; }
+
+  

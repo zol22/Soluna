@@ -21,12 +21,13 @@ const { title, description, heroImage } = portfolio.data;
 <div
 	class:list={[
 		"grid gap-4",
+		"scroll-animation",
 		{
 			"md:grid-cols-2": direction === "horizontal",
 		},
 	]}
 >
-	<a href={`/portfolio/${portfolio.id}`} class="aspect-square overflow-hidden">
+	<a href={`/portfolio/${portfolio.id}`} class="overflow-hidden col">
 		{
 			noTransitions && (
 				<Image
@@ -34,7 +35,7 @@ const { title, description, heroImage } = portfolio.data;
 					alt={title}
 					width={450}
 					densities={[1.5, 2, 3]}
-					class="h-auto min-h-full w-full min-w-full object-cover"
+					class="h-auto min-h-full w-full min-w-full"
 				/>
 			)
 		}
@@ -45,7 +46,7 @@ const { title, description, heroImage } = portfolio.data;
 					alt={title}
 					width={450}
 					densities={[1.5, 2, 3]}
-					class="h-auto min-h-full w-full min-w-full object-cover"
+					class="h-auto w-full"
 					transition:name={`portfolio-image-${portfolio.id}`}
 				/>
 			)
@@ -53,11 +54,11 @@ const { title, description, heroImage } = portfolio.data;
 	</a>
 	<div class="flex flex-col justify-between gap-2">
 		<div>
-			<h3 class="h3 text-primary-500 tracking-widest">{title}</h3>
-			<p class="mt-4 lg:text-lg">{description}</p>
+			<h3 class="col h3 text-primary-500 tracking-widest">{title}</h3>
+			<p class="col mt-4 lg:text-lg">{description}</p>
 		</div>
 		<div class="flex">
-			<Button variant="ghost" arrow="right" href={`/portfolio/${portfolio.id}`} class="pl-0">
+			<Button variant="ghost" arrow="right" href={`/portfolio/${portfolio.id}`} class="col pl-0">
 				View More
 			</Button>
 		</div>

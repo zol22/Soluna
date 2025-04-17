@@ -8,6 +8,7 @@ import Footer from "@components/Footer/Footer.astro";
 
 // style import
 import "@/styles/global.css";
+import { ClientRouter } from "astro:transitions";
 
 // heroImage and authorData are defined on blog posts
 // authorData could also be defined on the about author page
@@ -47,7 +48,11 @@ const {
 			<main>
 				<slot />
 			</main>
+			<ClientRouter />
+
 		</div>
 		<Footer />
 	</body>
 </html>
+
+<script src="../js/scroll-animate.js"></script>

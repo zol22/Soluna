@@ -1,18 +1,15 @@
 ---
-title: A mountain escape
-description: Transform your wedding moments into lasting memories amidst California's majestic mountains.
-heroImage: ./couple-9-square.jpg
+title: Mobile Bar Website
+description: Custom Squarespace site for a Peruvian cocktail and brunch brand.
+heroImage: ./piscoMixers.png
 date: "Aug 5 2024"
-location: Malibu, California
-clients: [Hannah, Marco]
+location: Florida
+clients: [Jefri]
 images:
   [
-    [./couple-2-min-1.jpg, ./couple-2-min-1.jpg],
-    [./rings-wood-min-1.jpg, ./seals-min-1.jpg, ./rings-wood-min-1.jpg],
-    [./couple-9-1.jpg],
-    [./cake-min-1.jpg, ./dress-min-1.jpg],
+    [ ./homepiscoMixers.png, ./piscoMixersInfo.png],
+    [./piscoMixersInfo2.png],
   ]
 order: 1
 ---
-
-This Malibu wedding was a breathtaking affair. The stunning mountain views provided a picturesque backdrop. The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.
+Designed for SEO, mobile users, and bold branding. Includes a user-friendly contact and booking form to streamline event inquiries and reservations. Built with vibrant visuals and clear navigation to reflect the brand’s lively personality and ensure a seamless experience for both desktop and mobile users.

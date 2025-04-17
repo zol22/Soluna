@@ -1,6 +1,6 @@
 ---
-title: JOSÉ & MELANIE
-testimonial: Jenna has a way of making us feel like the only people in the room. The photos she delivered were beyond our expectations, capturing the joy, love, and beauty of our special day in a way that we will treasure forever.
-image: ./couple-8-crop.jpg
+title: Jefri
+testimonial: Working with Solange was an absolute joy! She nailed the vibe of our mobile bar. The site looks amazing and we’ve already booked events through it. Super easy process! Highly recommend her to any small business wanting to stand out online!
+image: ./piscoMixers.png
 order: 1
 ---
