@@ -7,7 +7,7 @@ location: Florida
 clients: [Jefri]
 images:
   [
-    [ ./homepiscoMixers.png, ./piscoMixersInfo.png],
+    [ ./homepiscomixers.png, ./piscoMixersInfo.png],
     [./piscoMixersInfo2.png],
   ]
 order: 1
