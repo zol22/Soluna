@@ -7,7 +7,7 @@ location: Miami, Florida
 clients: [Rosi]
 images:
   [
-    [./cateringInfo.png, cateringinfo3.png],
+    [./cateringInfo.png, cateringInfo3.png],
 
   ]
 order: 2
