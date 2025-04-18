@@ -18,9 +18,9 @@ export interface SiteDataProps {
 const siteData: SiteDataProps = {
 	name: "Soluna Sites",
 	// Your website's title and description (meta fields)
-	title: "Soluna Sites – Custom Websites for Small Businesses & Entrepreneurs",
+	title: "Soluna Sites – Custom Websites for Business Growth",
 	description:
-		"Soluna Sites helps small businesses and creative entrepreneurs shine online with beautiful, responsive websites. Built with clean code or trusted builders, each site is SEO-ready, mobile-friendly, and tailored to your brand's vibe.",
+		"Soluna Sites builds fast, SEO-optimized websites for small businesses and creatives in Orlando. Clean, responsive, and tailored to your vision.",
 	useViewTransitions: true,
 	// Your information!
 	author: {
