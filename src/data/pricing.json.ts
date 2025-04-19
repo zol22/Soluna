@@ -28,10 +28,13 @@ export const packages: PackageItem[] = [
 		price: 300,
 		features: [
 			"Up to 5 Pages (Home, About, Services, Work, Contact)",
-			"SEO Optimization",
-			"Google Analytics Setup",
+			"SEO & Website Optimization",
 			"Help Getting Listed on Google",
 			"Contact Form Setup",
+			"Beautiful Landing Page with Clear CTA",
+			"Improved User Experience (UX)",
+			"User Behavior Analysis",
+			"Reduce Bounce Rate & Boost Conversions"
 		],
 		image: image1,
 	}
