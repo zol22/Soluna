@@ -15,7 +15,7 @@ export interface AddonItem {
 	name: string;
 	description: string;
 	price: number;
-	recurring?: "monthly" | "yearly";
+	recurring?: "monthly" | "yearly" | "one-time";
     required: boolean
 	image?: ImageMetadata;
 }
@@ -30,7 +30,7 @@ export const packages: PackageItem[] = [
 			"Up to 5 Pages (Home, About, Services, Work, Contact)",
 			"SEO & Website Optimization",
 			"Help Getting Listed on Google",
-			"Contact Form Setup",
+			"Contact Form Setup + Google Maps Embed",
 			"Beautiful Landing Page with Clear CTA",
 			"Improved User Experience (UX)",
 			"User Behavior Analysis",
@@ -63,6 +63,20 @@ export const addons: AddonItem[] = [
 		price: 99,
         required: false,
 		recurring: "monthly",
+	},
+	{
+		name: "Custom Domain Email Setup",
+		description: "Set up a professional email (hello@yourbusiness.com). Client pays email provider fees.",
+		price: 25,
+        required: false,
+		recurring: "one-time",
+	},
+	{
+		name: "WhatsApp Integration",
+		description: "Add a chat widget so visitors can message you instantly.",
+		price: 50,
+        required: false,
+		recurring: "one-time",
 	},
 ];
 
