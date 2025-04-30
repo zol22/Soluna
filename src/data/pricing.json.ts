@@ -1,6 +1,4 @@
 import image1 from "@assets/images/hero2.jpg";
-import image2 from "@assets/images/couple-6-crop.jpg";
-import image3 from "@assets/images/couple-1-square.jpg";
 
 export interface PackageItem {
 	name: string;
@@ -48,7 +46,6 @@ export const addons: AddonItem[] = [
 		price: 20,
 		recurring: "yearly",
         required: true,
-		image: image3,
 	},
 	{
 		name: "Hosting Setup",
