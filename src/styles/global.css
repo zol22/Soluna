@@ -65,7 +65,7 @@
 	}
 
 	.form__input {
-		@apply border-primary-500 text-base-900 placeholder-base-500 w-full rounded-none border bg-transparent px-4 py-2 transition duration-200 outline-none;
+		@apply appearance-none border-1 border-solid border-primary-500 text-base-900 placeholder-base-500 w-full rounded-none  bg-transparent px-4 py-2 transition duration-200 outline-none dark:border-base-200;
 		@apply focus:border-primary-300 focus-visible:border-primary-400 focus:ring-0 focus:outline-none focus-visible:outline-none;
 	}
 
