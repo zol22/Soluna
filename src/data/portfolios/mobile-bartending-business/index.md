@@ -10,6 +10,6 @@ images:
     [ ./homepiscomixers.png, ./piscoMixersInfo.png],
     [./piscoMixersInfo2.png],
   ]
-order: 1
+order: 3
 ---
 Designed for SEO, mobile users, and bold branding. Includes a user-friendly contact and booking form to streamline event inquiries and reservations. Built with vibrant visuals and clear navigation to reflect the brand’s lively personality and ensure a seamless experience for both desktop and mobile users.

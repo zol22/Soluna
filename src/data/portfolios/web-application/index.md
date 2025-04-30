@@ -9,7 +9,7 @@ images:
   [
     [./jobsyHomepage.png]
   ]
-order: 3
+order: 4
 ---
 
 Jobsy is a full-stack job tracking web application that helps users manage their job applications, monitor progress, track statuses, store notes and affirmations, and visualize their job-hunting journey with powerful statistics and reminders — all in one intuitive, modern dashboard
