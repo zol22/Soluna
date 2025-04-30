@@ -65,8 +65,8 @@
 	}
 
 	.form__input {
-		@apply border-primary-300 text-base-900 placeholder-base-500 w-full rounded-none border bg-transparent px-4 py-2 transition duration-200 outline-none;
-		@apply focus:border-primary-400 focus-visible:border-primary-400 focus:ring-0 focus:outline-none focus-visible:outline-none;
+		@apply border-primary-500 text-base-900 placeholder-base-500 w-full rounded-none border bg-transparent px-4 py-2 transition duration-200 outline-none;
+		@apply focus:border-primary-300 focus-visible:border-primary-400 focus:ring-0 focus:outline-none focus-visible:outline-none;
 	}
 
 	/* styles navbar links */
