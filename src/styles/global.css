@@ -9,7 +9,6 @@
 @import "./tailwind-theme.css";
 
 /* other imports into specific layers */
-@import "./markdown-content.css" layer(components);
 @import "./buttons.css" layer(components);
 
 /* https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer */
@@ -27,7 +26,7 @@
 		@apply ring-primary-300 rounded-none ring-2 transition-none outline-none;
 	}
 	html {
-		@apply bg-base-100 text-base-900 leading-[1.6rem] scheme-light;
+		@apply bg-base-100 text-base-900 leading-[1.8rem] scheme-light;
 		scroll-behavior: smooth;
 		-moz-text-size-adjust: none;
 		-webkit-text-size-adjust: none;
