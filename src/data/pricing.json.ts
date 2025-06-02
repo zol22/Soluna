@@ -1,5 +1,6 @@
-import image1 from "@assets/images/hero2.jpg";
-
+import edit from "@assets/images/edit.jpg";
+import fullcare from "@assets/images/fullcare.jpg";
+import starter from "@assets/images/starter.jpg";
 export interface PackageItem {
 	name: string;
 	featured?: boolean;
@@ -33,7 +34,7 @@ export const packages: PackageItem[] = [
 			"Contact Form Setup + Google Maps Embed",
 			"Clean Layout with Clear CTA",
 		],
-		image: image1,
+		image: starter,
 		ideal: "New business owners who want a clean, professional site with no need for frequent changes"
 
 	},
@@ -48,7 +49,7 @@ export const packages: PackageItem[] = [
 			"Video Tutorial Included",
 			"Optional Blog or Gallery Setup"
 		],
-		image: image1,
+		image: edit,
 		ideal: "Business owners who want to update content themselves (text, images, blogs)"
 	},
 	{
@@ -63,7 +64,7 @@ export const packages: PackageItem[] = [
 			"Priority Support",
 			"Optional Analytics Reporting"
 		],
-		image: image1,
+		image: fullcare,
 		ideal:"Busy professionals who want everything managed for them with ongoing support"
 	},
 ];
