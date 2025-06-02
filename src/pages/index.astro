@@ -17,6 +17,7 @@ import Button from "@components/Button/Button.astro";
 
 // data
 import siteData from "@config/siteData.json";
+import Whycustom from "@components/WhyCustom/Whycustom.astro";
 ---
 
 <BaseLayout title={siteData.title} description={siteData.description} navStartStyle="white">
@@ -27,7 +28,9 @@ import siteData from "@config/siteData.json";
 	{/*<FeatureNumbers />*/}
 	<PortfolioThreeCards />
 	<Testimonials />
+	<Whycustom />
 	<PricingCards />
+
 
 	<Contact />
 </BaseLayout>
