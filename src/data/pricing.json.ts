@@ -25,7 +25,7 @@ export const packages: PackageItem[] = [
 	{
 		name: "Starter Site",
         featured: false,
-		price: 600,
+		price: 700,
 		features: [
 			"Up to 5 Pages (Home, About, Services, Work, Contact)",
 			"Responsive Design",
@@ -45,7 +45,7 @@ export const packages: PackageItem[] = [
 		features: [
 			"Everything in Starter",
 			"CMS or Platform for Client Edits",
-			"Login Access to Edit Text & Images",
+			"Edit Text & Images",
 			"Video Tutorial Included",
 			"Optional Blog or Gallery Setup"
 		],
